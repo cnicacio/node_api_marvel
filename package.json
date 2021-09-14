@@ -1,0 +1,29 @@
+{
+  "name": "node_api_marvel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnicacio/node_api_marvel.git"
+  },
+  "author": "Carlos Nicacio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnicacio/node_api_marvel/issues"
+  },
+  "homepage": "https://github.com/cnicacio/node_api_marvel#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
